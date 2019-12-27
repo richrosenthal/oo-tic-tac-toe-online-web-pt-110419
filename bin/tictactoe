@@ -1,5 +1,6 @@
-#!/usr/bin/env ruby
+!/usr/bin/env ruby
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
-tic_tac_toe.new 
-tic_tac_toe.play 
+
+new_game = tic_tac_toe.new 
+new_game.play 
